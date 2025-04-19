@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Padaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 1rem;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .destaque {
+            text-align: center;
+            padding: 2rem 0;
+            background: #fff;
+        }
+
+        .destaque img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .promocoes, .cardapio {
+            padding: 2rem;
+            background: #fff;
+            margin: 1rem 0;
+        }
+
+        .promocoes h2, .cardapio h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            background: #f9f9f9;
+            margin: 1rem 0;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+
+        footer .redes-sociais {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        footer .redes-sociais li {
+            margin: 0 0.5rem;
+        }
+
+        footer .redes-sociais li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Doces</a></li>
+                <li><a href="#">Salgados</a></li>
+                <li><a href="#">Encomendas</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destaque">
+        <h1>Descubra os Sabores da Minha Padaria</h1>
+        <img src="padaria02.png" alt="Imagem da padaria">
+        <p>Experimente nossos produtos fresquinhos e feitos com muito carinho. Venha nos visitar!</p>
+    </section>
+
+    <section class="promocoes">
+        <h2>Promoções</h2>
+        <div class="card">
+            <img src="promocao01.png" alt="Promoção 1">
+            <h4>Promoção 1</h4>
+            <p>Descrição da promoção 1.</p>
+        </div>
+        <div class="card">
+            <img src="promocao02.png" alt="Promoção 2">
+            <h4>Promoção 2</h4>
+            <p>Descrição da promoção 2.</p>
+        </div>
+    </section>
+
+    <section class="cardapio">
+        <h2>Cardápio</h2>
+        <h3>Lanches</h3>
+        <div class="card">
+            <img src="padaria02.png" alt="Lanche 1">
+            <h4>Lanche 1</h4>
+            <p>Descrição do lanche 1.</p>
+        </div>
+        <h3>Refeições</h3>
+    </section>
+
+    <footer>
+        <p>© 2023 Minha Padaria - Todos os direitos reservados.</p>
+        <ul class="redes-sociais">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
